@@ -49,7 +49,7 @@ If these are not installed, nothing breaks: the app tells you *"This computer ca
 
 1. Get the latest **`.dmg`** from [**Releases**](https://github.com/Aakashcs/StudioX-MacOS/releases/latest).
 2. Open it and drag **StudioX** to **Applications**.
-3. **First launch:** this build is signed by the developer but **not yet notarized by Apple**, so macOS will not open it with a double-click. Right-click the app → **Open** → **Open**. On recent macOS you may instead need **System Settings → Privacy & Security → Open Anyway**. After the first time it opens normally.
+3. Open it. The app is signed and notarized by Apple, so it opens with a normal double-click.
 
 Prefer no install? Everything except Run on device works at **[withstudiox.com](https://withstudiox.com)**.
 
