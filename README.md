@@ -51,13 +51,13 @@ If these are not installed, nothing breaks: the app tells you *"This computer ca
 2. Open it and drag **StudioX** to **Applications**.
 3. Open it. The app is signed and notarized by Apple, so it opens with a normal double-click.
 
-Prefer no install? Everything except Run on device works at **[withstudiox.com](https://withstudiox.com)**.
+Prefer no install? Everything except Run on device works in your browser — sign in at **[design.withstudiox.com](https://design.withstudiox.com)**.
 
 > **Version 2.0 needs Studio X web 1.0.56 or later.** If the app shows an error page right after opening, the website has not been updated yet — use the browser in the meantime.
 
 ## Privacy & security
 
-- The desktop app is a window onto `withstudiox.com` plus the ability to build and run **your own project** on your own devices. It accepts requests only from the Studio X site, only in its main window, and never runs a command the page supplies.
+- The desktop app is a window onto the Studio X editor (`design.withstudiox.com`) plus the ability to build and run **your own project** on your own devices. It accepts requests only from the Studio X editor, only in its main window, and never runs a command the page supplies.
 - Running a project downloads its generated source code to `~/StudioXProjects/<project>` (private to your user). That copy includes your app's API credentials, because a mobile app carries them. **Forget local copy** in the Device Run window deletes it.
 - Building and running a project runs its code, its packages and any custom code in it on your Mac — exactly as opening it in any IDE would. Studio X asks before the first run of each project.
 - Before it replaces an app already on your phone that was signed with a different key (for example the store version), it asks — because that removes the installed copy and its data.
